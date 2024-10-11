@@ -1,4 +1,11 @@
-# CloudUploader-Tool
+
 
 Objective: 
 To build a bash-based Command-Line Interface (CLI) application designed to streamline the process of uploading files to cloud storage. A tool that empowers users to efficiently transfer files to their chosen cloud storage solution with the simplicity and ease of popular storage services.        
+
+Prerequisites
+- Basic knowledge of Bash scripting
+- Knowledge of a text editor (Vi, Nano, Vim)
+- Basic understanding of a cloud storage service (S3 bucket)
+
+Step
