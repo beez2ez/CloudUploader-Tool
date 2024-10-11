@@ -12,7 +12,7 @@ exit 2
 fi
 
 # Perform the upload
-upload_output=$(aws s3 cp "$file_name" s3://"bucket_name"/ 2>&1)
+upload_output=$(aws s3 cp "$file_name" s3://"$bucket_name"/ 2>&1)
 upload_status=$?
 
 if [ $upload_status -eq 0 ]; then 
